@@ -1,0 +1,42 @@
+
+*{
+	font-family: aealarabiya;
+}
+body{
+	direction: rtl;
+}
+page_header,page_footer{
+	text-align: center;
+	font-size:25px; 
+}
+table{
+	border: 3px solid #000;
+	position: relative;
+	left: -66px
+}
+tr{
+	border: 1px solid #000;
+	background-color: #999;
+}
+td,th{
+	width: 10%;
+	padding: 15px;
+	border: 1px solid #000;
+	word-break:  break-word;
+
+}
+
+.td1{
+
+	padding: 10px 0;
+	
+}
+.tr2{
+	
+	background-color: #f1f1f9;
+	
+}
+.tr2:nth-child(even){
+	
+	/*background-color: #c1fcf9;*/
+}

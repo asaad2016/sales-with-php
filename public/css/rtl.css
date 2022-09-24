@@ -1,0 +1,194 @@
+
+body{
+    direction: ltr;
+}
+/*@font-face{
+    font-family:krkr;
+    src:url('fonts/GE_SS-Two_Bold.otf')
+}*/
+/*star header*/
+
+
+
+.navbar-default img{
+    margin-top:0 ;
+    margin-right:10px;
+}
+.user-header img{
+    margin-top:10px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+.nv{
+   
+  
+    float: right;
+}
+.navbar-right{
+    float: left;
+   
+    width: 150px;
+  position: absolute;
+    left: 50px;
+}
+#togglecollapse{
+   position: absolute;
+    right: 30px;
+    top: 15px;
+}
+#togglecollapse1{
+   
+ position: absolute;
+    left:230px;
+
+}
+
+.li-ar{
+   position: absolute;
+    left: 40px;;
+}
+
+
+.navbar-right .ddff{
+    float: right;
+    
+}
+.ddvv{
+   position: absolute;
+    float: right;
+  
+ left:0 !important;
+   top:77px;
+}
+.dds p{
+    margin-top: 5px;
+     margin-left: -5px;
+}
+.dds{
+    margin-top: -10px;
+}
+.dds a span.username{
+    float: right;
+    margin-left: 5px;
+  
+}
+
+.dds .user-body .col-xs-4{
+  
+  margin-right: 2px;
+    margin-left: -2px !important;
+      
+}
+.dds .user-body .col-xs-4:last-child
+
+{
+     position: absolute;
+    right:6px;
+}
+.dds .user-body .col-xs-4:nth-child(2){
+   
+      position: absolute;
+    left:47px;
+   
+   
+}
+.dds .user-body .col-xs-4:first-child
+
+{
+     position: absolute;
+    left: 3px;
+ 
+}
+
+.label-warning,.label-danger{
+  
+    right:2px;
+}
+.nav .dd{
+    margin-right: 20px;
+   
+}
+
+
+.navbar .logo{
+   float: left;
+    position: absolute;
+    left: 0;
+  
+ 
+   
+}
+
+.navbar-right{
+    margin-left: 230px;
+}
+/********************* end header**********************************/
+/****************************start sidebar***********************************/
+.sidebar{
+    background-color: orange;
+    float: left;
+}
+.gnav-header a span.glyphicon,.subnav a span.glyphicon{
+    margin-left: 5px;
+   
+}
+.gnav-header a,.gnav .subnav li a{
+    border-left: 5px solid transparent;
+   
+}
+.gnav-header a:hover,.gnav .subnav li a:hover,.gnav-header .has-childs a:hover{
+    border-left-color:#59ABE3;
+
+}
+
+.gnav-header .has-childs:after{
+   
+    float: right;
+  
+
+      
+}
+
+
+
+
+ /******************end sidebar****************************/  
+/********************* start content**********************************/
+.content-wraper{
+     margin-left: 240px;
+  
+}
+
+
+/********************* end content**********************************/
+/************************start body-sidebar collapse***************************/
+
+.body-sidebar .navbar-right{
+    margin-left: 50px;
+}
+.body-sidebar #togglecollapse1{
+   
+   position: absolute;
+    left:50px;
+
+   
+}
+.body-sidebar .content-wraper{
+     margin-left: 60px;
+}
+/*.body-sidebar dds{
+    margin-left: 20px;
+}*/
+/********************* end ----------------**********************************/
+
+/****************************************************************/
+/**************************/
+/***************************/
+.dv{
+  
+    left:15px;
+    
+   
+    
+}
+/***************************/

@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+/*@font-face{
+    font-family:krkr;
+    src:url('fonts/GE_SS-Two_Bold.otf')
+}*/
+/*star header*/
+.navbar-default{
+    background-color:#2077a0;
+    border-color:#325667;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#f1f1f1;
+    /* font-family:krkr;*/
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#afe820;
+}
+.nav>li{
+    position:relative;
+    display:block;
+    height:75px;
+    padding-top:10px;
+}
+.navbar-default img{
+    margin-top:10px;
+    margin-right:10px;
+}
+.dds{
+    margin-top: 0;
+
+    margin-left: 20px;
+
+}
+.dds a span.username{
+    float: left;
+    margin-right: 5px;
+    margin-top: 0;
+    font-size: 15px;
+}
+.dds  img{
+    margin-top: -5px;
+    border-radius: 50%;
+}
+.dds .user-header{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dds .user-header p{
+    font-size: 20px;
+}
+.dds .user-body{
+
+
+    margin-bottom: 10px;
+
+    height: 90px;
+    background-color: aqua;
+}
+.dds .user-body .col-xs-4{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: -15px !important;
+
+}
+.dds .user-body .col-xs-4:first-child
+
+
+{
+    margin-left: 8px;
+    padding-left: 0;
+
+}
+.dds .user-body .col-xs-4:nth-child(2){
+
+    position: absolute;
+    left: 60px;
+
+}
+.dds .user-body .col-xs-4:last-child
+
+{
+    position: absolute;
+    right: 2;
+
+}
+.dds .user-body .col-xs-4 a{
+
+    font-size: 18px;
+
+
+}
+.label-warning,.label-danger{
+    position: absolute;
+    top: 1px;
+    width: 18px;
+    left:2px;
+}
+.nav .dd{
+    margin-left: 20px;
+    background-color: aqua;
+}
+
+#togglecollapse{
+    background-color:#2077a0;
+    color:#fff;
+
+    width: 40px;
+    border-color:transparent;
+    height: 40px;
+    transition: all 1.5s ease-in-out
+}
+#togglecollapse:hover{
+    color:#afe820;
+
+}
+#togglecollapse1{
+    background-color:#2077a0;
+    color:#fff;
+    margin-right: 240px ;
+    width: 40px;
+    border-color:transparent;
+    height: 40px;
+}
+#togglecollapse1:hover{
+    color:#afe820;
+
+}
+.navbar .logo{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 230px;
+    background-color: black;
+
+    background-color:#2077a0;
+    border-color:#325667;
+    transition: transform 1.5s ease-in-out,width 1.5s ease-in-out;
+    background-color:rgba(40, 96, 144, 0.7);
+    min-height:100%;
+}
+.navbar .logo h2{
+    text-align: center;
+    color: #afe820;;
+
+
+}
+.navbar-right{
+    margin-right: 230px;
+}
+/********************* end header**********************************/
+/****************************start sidebar***********************************/
+.sidebar{
+    background-color: orange;
+    float: right;
+    width: 230px;
+    height: 800px;
+    transition: transform 1.5s ease-in-out,width 1.5s ease-in-out;
+}
+.gnav-header a span.glyphicon,.subnav a span.glyphicon{
+    margin-right: 5px;
+
+}
+.gnav-header a,.gnav .subnav li a{
+    border-right: 5px solid transparent;
+
+}
+.gnav-header a:hover,.gnav .subnav li a:hover,.gnav-header .has-childs a:hover{
+    border-right-color:#59ABE3;
+    color:  #afe820;
+    transition: 0.3s;
+
+}
+.gnav-header a:focus,.gnav .subnav li a:focus{
+    color:  #afe820;
+    /* background-color: #333;*/
+
+}
+.gnav-header{
+    padding: 0;
+}
+.gnav-header a{
+    display: block;
+    color: #eee;
+    padding: 10px;
+}
+.gnav-header .has-childs:after{
+    font-family: 'Glyphicons Halflings';
+    content:'\e114';
+    float: left;
+    color: blue;
+
+
+}
+.gnav-header .collapsed:after{
+    content: "\e079";
+
+}
+
+.gnav .subnav{
+    padding: 0;
+    margin: 0;
+}
+.gnav .subnav li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.gnav .subnav li a{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    background-color: #444;
+    color: #eee;
+}
+/******************end sidebar****************************/
+/********************* start content**********************************/
+.content-wraper{
+    margin-right: 240px;
+    height: 800px;
+    margin-top: 50px;
+}
+.content-wraper .header-content{
+    border: 1px solid #eee;
+    height: 800px;
+}
+/********************* end content**********************************/
+/************************start body-sidebar collapse***************************/
+.body-sidebar .logo{
+    width: 50px;
+    transition: transform 1.5s ease-in-out,width 1.5s ease-in-out;
+}
+.body-sidebar .logo h2{
+    font-size: 25px;
+}
+#togglecollapse{
+    margin-right: 10px;
+}
+.body-sidebar #togglecollapse1{
+
+    margin-right: 50px;
+
+
+}
+.body-sidebar .navbar-right{
+    margin-right: 50px;
+}
+.body-sidebar .content-wraper{
+    margin-right: 60px;
+}
+.body-sidebar .sidebar{
+
+    width: 50px;
+    transition: transform 1.5s ease-in-out,width 1.5s ease-in-out;
+}
+.body-sidebar .gnav-header a span.hidden-on-collapse,
+.body-sidebar .gnav-header a.has-childs:after,
+.body-sidebar .gnav .subnav a span.hidden-on-collapse{
+    display:none;
+
+}
+/********************* end ----------------**********************************/
+
+/****************************************************************/
+/**************************/
+/***************************/
+.dv{
+    position: absolute;
+    top:32px;
+    right:15px;
+
+    width: 100px;
+
+}
+/***************************/
+/*****************************************************************/
+ table tr th{
+text-align: center;
+    vertical-align: middle;
+    background-color: #1b6d85;;
+}
+.thumbnail .caption .hidden{
+    display: none !important;
+}
+/*table roles*/
+p .fa-roles-true .fa{
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px
+}
+p .fa-roles-false .fa{
+    background-color: red;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px
+}
+.td-roles p span:first-child{
+    min-width: 150px;
+    display: inline-block;
+}
+table h4{
+    display: inline-block;
+    margin-right: 14px;
+    font-size: 24px;
+    font-weight: bold;
+}
